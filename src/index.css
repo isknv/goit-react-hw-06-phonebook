@@ -1,0 +1,89 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.form-horizontal {
+  max-width: 300px;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-filter,
+.container-name,
+.container-number {
+  border: 1px solid rgba(255, 255, 255, 0.527);
+  border-radius: 5px;
+  padding: 5px 50px 5px 50px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.btn-form {
+  margin-top: 10px;
+}
+.list-filter {
+  border: 1px solid rgba(255, 255, 255, 0.527);
+  border-radius: 5px;
+  padding: 15px 50px 15px 50px;
+  list-style: none;
+}
+.item-filter {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.527);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 7px;
+}
+.contacts {
+  text-align: center;
+  margin-top: 10px;
+}
+.container-contacts {
+  display: flex;
+  justify-content: center;
+}
+.index,
+.number,
+.name {
+  margin-right: 15px;
+}
